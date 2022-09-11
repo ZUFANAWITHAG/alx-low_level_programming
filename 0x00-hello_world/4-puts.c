@@ -1,11 +1,12 @@
-#!/bin/bash
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - Printing
  *
- * Rturn: 0 after printing the function
+ * Rturn: Always 0 (Successful)
  */
 int main(void)
-{puts("\"programing is like building a multilingual puzzle");
+{
+puts("\"programing is like building a multilingual puzzle");
 	return (0);
 }
