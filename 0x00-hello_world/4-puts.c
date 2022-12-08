@@ -1,10 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - Printing
+ * main - Entry point
  *
  * Rturn: Always 0 (Successful)
  */
+
 int main(void)
 {
 puts("\"programing is like building a multilingual puzzle");
