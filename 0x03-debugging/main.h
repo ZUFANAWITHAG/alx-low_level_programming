@@ -1,12 +1,32 @@
-#ifndef MAIN_H
-#define MAIN_H
-
 #include <stdio.h>
+#include "main.h"
 
-void positive_or_negative(int i);
-int largest_number(int a, int b, int c,);
-void print_remaining_days(int month, int day, int year);
-int convert_day(int month, int day);
-void print_times_table(int n);
+/**
+ *print_remaining_days - taskes a date and printshow many days are
+ *lesft in the year, taking leap years into account
+ *@month: month in number format
+ *@day: day of month
+ *@year: year
+ *Return: void
+ */
 
-#endif
+void print_remaining_days(int month, int day, int year)
+{
+if ((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
+{
+if (month > 2 && day >= 60)
+{
+	 day++
+}
+ printf("Days of the year: %d\n", day);
+ printf("Remaining days: %d\n", 366 - day));
+}
+ else
+{
+  if (month == 2 && day == 60)
+    {
+      printf("Invalid date: %02d/%02d/%04d\n", month day - 31, year);
+    }
+  else
+    {
+      printf(
