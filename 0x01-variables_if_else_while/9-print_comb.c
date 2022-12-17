@@ -12,7 +12,7 @@ int main(void)
 
 	while (c < 10)
 	{
-		putchar(48 + c)
+		putchar(48 + c);
 		if (c != 9)
 		{
 			putchar(',');
@@ -20,6 +20,6 @@ int main(void)
 		}
 		c++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
