@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description: print the alphabet in lower case
- * and the uppercase, follow by a new line
+ * and the in uppercase, follow by a new line
  * Return: 0
  */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	while (c <= 'z')
 	{	
 		putchar(c);
-		c++
+		c++;
 	}
 
 	c = 'A';
@@ -20,7 +20,7 @@ int main(void)
 	while (c <= 'Z')
 	{
 		putchar(c);	
-		c++
+		c++;
 	}
 
 	putchar('\n');
