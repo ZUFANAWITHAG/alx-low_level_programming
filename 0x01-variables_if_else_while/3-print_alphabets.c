@@ -9,11 +9,11 @@ int main(void)
 {
 	char k = 'a';
 
-	if (k <= 'z')
+	if (k == 'z')
 	{
 		putchar(k);
 	}
-	else if (k >= 'z')
+	else if (k == 'z')
 	{
 		putchar(k);
 	}
